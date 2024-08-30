@@ -197,7 +197,7 @@ const Header = (props) => {
             </IconButton>
             <Link to="/" className={classes.title}>
               <Typography variant="h6" noWrap>
-                Find Me Movies
+                MovieFlixtor
               </Typography>
             </Link>
             <div className={classes.search}>

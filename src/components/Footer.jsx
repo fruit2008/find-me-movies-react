@@ -9,11 +9,8 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary">
       {'Copyright © '}
       <Link
-        color="inherit"
-        href="https://gayankanishka.github.io/"
-        target="_blank"
       >
-        Visit Me
+        movieflixtor
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -36,7 +33,6 @@ const Footer = () => {
     <>
       <footer className={classes.footer}>
         <Container maxWidth="sm">
-          <Typography variant="body1">Gayan K.</Typography>
           <Copyright />
         </Container>
       </footer>
